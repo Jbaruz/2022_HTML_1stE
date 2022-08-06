@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* outline:1px dotted pink; */
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    padding: 10px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1b1b1b;
+    color: #e4e4e4;
+    padding:20px;
+}
+.banner {
+    background-image: linear-gradient(#545254, #403f40, #2a282a);
+    height: 40px;
+    display: grid;
+    grid-template-columns: 7% 7% 10% 12% 12% 45%;
+    align-items: center;
+    font-weight: bold;
+}
+.banner a{
+    color: #979797;
+    font-size: 14px;
+    margin-left: 20px;
+    height: 20px;
+    border-right: solid 1px rgb(109, 108, 108);
+}
+.banner a:first-child{
+    color:#fff;
+}
+/********  section pitcture *********/
+section{
+    display:flex;
+    flex-direction: column;
+}
+.list{
+    display: flex;
+    align-items: start;
+    background-color: #1b1b1b ;
+    padding: 2% 0 2% 0;
+    border-top: 5px solid #3d3b3d;
+}
+.underPhoto{
+    display: flex;
+    flex:1;
+    padding: 2%;
+}
+.underPhoto img{
+    width: 40px;
+    height: 35px;
+}
+.headerSection{
+    margin-left: 20px;
+}
+.headerSection h3{
+    color: #c57645;
+}
+.headerSection p{
+    color:#c7bfc0;
+}
+
+/**********  FOOTER *********/
+footer{
+    background-color:black;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.topFooter{
+    color: #fff;
+    padding: 4% 18% 4% 5%;
+}
+.topFooter h3{
+    text-decoration: bold;
+    margin-bottom: 2%;
+}
+footer button{
+    width: 15vw;
+    height:7vh;
+    color: white;
+    background-color: orange;
+    border-radius:7px;
+    margin-right: 5%;
+    cursor: pointer;
+
+}
+.topSection-finalFooter{
+    background-color:#1b1b1b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.2% 2% 2.2% 2%;
+}
+.topSection-finalFooter h2{
+    color: #fff;
+}
+.topSection-finalFooter p{
+    color: #c57645;
+    font-style: oblique;
+    font-weight: bold;
+}
+.botoomSection-finalFooter{
+    background-color: #1b1b1b;
+    display: flex;
+    padding-bottom: 3%;
+}
+.section-botoomSection{
+    flex: 1;
+    padding: 1.3%;
+}
+.section-botoomSection img{
+    width: 100%;
+    border: 4px solid #373838;
+}
+.section-botoomSection h3{
+    color:#c57645;
+}
+.section-botoomSection p{
+    color: #fff;
+}
+span a{
+    color: gray;
+    background-color:#1b1b1b;
+    display: flex;
+    justify-content: end;
+    font-size: 12px;
+    padding: 1%;
+}
